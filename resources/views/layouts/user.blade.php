@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jogja Travel - Regna emplate</title>
+  <title>MilesToSee</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="{{asset('user/images/favicon.png')}}" rel="icon">
+  <link href="{{asset('user/images/mts.png')}}" rel="icon">
   <link href="{{asset('user/images/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="{{asset('user/lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <!-- Libraries CSS Files -->
   <link href="{{asset('user/lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
@@ -41,8 +41,8 @@
 
       <div id="logo" class="pull-left">
         <a href="#hero">
-          <img src="{{asset('user/images/icon.png')}}" style="margin-right:5px"/></img>
-          <h2 class="d-inline text-light">Jogja-Travel</h2>
+          <img src="{{asset('user/images/icon.png')}}" class="position-absolute w-50px"/></img>
+          <h2 class="d-inline text-light ml-3 pl-5">MilesToSee</h2>
         </a>
       </div>
 
@@ -92,6 +92,7 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!-- JavaScript Libraries -->
   <script src="{{asset('user/lib/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('user/lib/easing/easing.min.js')}}"></script>
